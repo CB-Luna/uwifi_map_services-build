@@ -87570,7 +87570,7 @@ A.tb.prototype={
 G(a){var s=null,r=A.b_(a,s,t.w).w.a.a<1024&&!0,q=A.IK(B.dH,B.dL,new A.iz("images/bg_gradient.png",s,s)),p=r?10:25,o=A.bh("Thank you!",s,s,s,A.tk(B.i,35,B.Y,1.5,-1),s,s),n=A.bh("Your order was placed successfully.\nWe'll get in contact with you soon!",s,s,s,A.tk(B.i,r?16:24,B.Y,1.5,-0.5),B.bB,s),m=A.t3(s,s,B.b2,s,s,s,s,s,s,s,s,B.dv,s,s,s,new A.ce(A.eo(30),B.o),s,s,s,s,s)
 return A.awK(s,B.mG,B.c6,A.bb(s,A.bb(s,A.c1(A.b([o,n,B.cX,A.ya(A.bh("Close",s,s,s,A.e7(B.i,14,B.bv,1.5,-0.2),s,s),new A.a5l(),m)],t.p),B.p,B.bL,B.ab,B.y),B.j,s,s,s,s,s,s,s,new A.ap(p,p,p,p),s,s,s),B.j,s,s,new A.bI(s,q,s,s,s,s,B.F),s,s,s,s,B.e3,s,s,600),B.ai,B.y9)}}
 A.a5l.prototype={
-$0(){return A.afw("/")},
+$0(){return A.afw("/uwifi_map_services-build/")},
 $S:0}
 A.rQ.prototype={
 G(a){var s,r=null,q=A.bt("^([0-9]+)(\\s+.*)?$",!0,!1).pK(this.d.Q),p=q==null?r:q.b[1]
