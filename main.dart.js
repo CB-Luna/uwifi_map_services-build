@@ -27031,12 +27031,12 @@ if(B.b.ac(a,b+1)!==58)return!1
 if(s===r)return!0
 return B.b.ac(a,r)===47},
 aUV(a,b){return A.aNC(a)},
-afx(){var s=0,r=A.K(t.y),q,p
-var $async$afx=A.L(function(a,b){if(a===1)return A.H(b,r)
+afx(a){var s=0,r=A.K(t.y),q,p
+var $async$afx=A.L(function(b,c){if(b===1)return A.H(c,r)
 while(true)switch(s){case 0:p=J
 s=3
-return A.F(B.KK.h6("restartApp",null,!1,t.z),$async$afx)
-case 3:q=p.d(b,"ok")
+return A.F(B.KK.h6("restartApp",a,!1,t.z),$async$afx)
+case 3:q=p.d(c,"ok")
 s=1
 break
 case 1:return A.I(q,r)}})
@@ -87510,7 +87510,7 @@ A.tb.prototype={
 G(a){var s=null,r=A.b5(a,s,t.w).w.a.a<1024&&!0,q=A.a28(B.fb,B.fg,new A.ju("images/bg_gradient.png",s,s)),p=r?10:25,o=A.bz("Thank you!",s,s,s,A.Kb(B.i,35,B.ai,1.5,-1),s,s),n=A.bz("Your order was placed successfully.\nWe'll get in contact with you soon!",s,s,s,A.Kb(B.i,r?16:24,B.ai,1.5,-0.5),B.ch,s),m=A.Jh(s,s,B.bE,s,s,s,s,s,s,s,s,B.hY,s,s,new A.cg(A.eO(30),B.o),s,s,s,s,s)
 return A.aAW(B.mE,B.cr,A.bo(s,A.bo(s,A.c4(A.b([o,n,B.d0,A.a4w(A.bz("Close",s,s,s,A.fm(B.i,14,B.bu,1.5,-0.2),s,s),new A.a5q(),m)],t.p),B.p,B.bK,B.ab,B.y),B.k,s,s,s,s,s,s,new A.ao(p,p,p,p),s,s,s),B.k,s,s,new A.bK(s,q,s,s,s,s,B.H),s,s,s,B.e5,s,s,600),B.aw,B.y2)}}
 A.a5q.prototype={
-$0(){return A.afx()},
+$0(){return A.afx("/uwifi_map_services-build/")},
 $S:0}
 A.rQ.prototype={
 G(a){var s,r=null,q=A.bk("^([0-9]+)(\\s+.*)?$",!0,!1).pK(this.d.Q),p=q==null?r:q.b[1]
