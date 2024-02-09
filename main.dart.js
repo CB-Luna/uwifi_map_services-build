@@ -90072,7 +90072,7 @@ return A.bx(l,A.bJ(A.a([new A.K8(new A.anT(),B.Gk,"Back",l),B.zL,new A.Qf(140,p,
 A.anT.prototype={
 $0(){var s=0,r=A.M(t.P)
 var $async$$0=A.N(function(a,b){if(a===1)return A.J(b,r)
-while(true)switch(s){case 0:A.aD6(A.du("https://react--uwifi.netlify.app/",0,null),"_self")
+while(true)switch(s){case 0:A.aD6(A.du("https://uwif-astro-web.vercel.app/",0,null),"_self")
 return A.K(null,r)}})
 return A.L($async$$0,r)},
 $S:101}
